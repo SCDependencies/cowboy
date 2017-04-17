@@ -18,12 +18,12 @@ CI_OTP = OTP-18.0.3 OTP-18.1.5 OTP-18.2.2
 LOCAL_DEPS = crypto
 
 DEPS = cowlib ranch
-dep_cowlib = git https://github.com/ninenines/cowlib master
-dep_ranch = git https://github.com/ninenines/ranch 1.1.0
+dep_cowlib = git https://github.com/SCDependencies/cowlib SC-master
+dep_ranch = git https://github.com/SCDependencies/ranch SC-1.1.0
 
 TEST_DEPS = ct_helper gun
-dep_ct_helper = git https://github.com/extend/ct_helper master
-dep_gun = git https://github.com/ninenines/gun master
+dep_ct_helper = git https://github.com/SCDependencies/ct_helper SC-master
+dep_gun = git https://github.com/SCDependencies/gun SC-master
 
 # Standard targets.
 
